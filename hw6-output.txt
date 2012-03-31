@@ -1,0 +1,142 @@
+Last login: Tue Nov 18 22:51:55 on ttys001
+MacBlake:~ blakerego$ ssh brego@nice.harvard.edu
+
+                 Harvard University Faculty of Arts & Sciences		
+
+                       Unauthorized Access is Prohibited
+
+
+Password: 
+Last login: Tue Nov 18 22:38:43 2008 from c-76-24-23-162.hsd1.ma.comcast.net
+
+Unauthorized Access is Prohibited.
+---
+Never give your password to ANYONE, whether by email, phone, or in person.
+---
+FAS Information Technology Web site: www.fas-it.fas.harvard.edu/
+---
+Unix suggestions?  Send email to unix-suggest@fas.harvard.edu
+---
+Email Tools: Visit www.fas.harvard.edu/fasit/myaccount/
+---
+Student Online Directory Update Tool: http://my.harvard.edu/directory
+---
+---
+Please note:
+
+This server supports Kerberos 5 as a means of authentication.
+As of Sept 12 2008 when connecting from the Linux lab workstations at
+Harvard Science Center the SSH password prompt will not be presented.
+This is a feature of Kerberos Single Sign On and an enhancement
+to FAS computer security. - FAS IT
+---
+
+Quota usage summary:
+29 Megabytes used out of 100 Megabytes
+96 Files used out of 10000 Files
+
+You have 14 new messages, 41 unread messages, 6 read messages.
+ice% cd hw6
+ice% clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.42 (2007-10-16) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2007
+
+Type :h and hit Enter for context help.
+
+[1]> (load "hw6.l")
+;; Loading file hw6.l ...
+;; Loaded file hw6.l
+T
+[2]> (learn "english")
+"I now know english"
+[3]> (learn "french")
+"I now know french"
+[4]> (learn "german")
+"I now know german"
+[5]> (learn "italian")
+"I now know italian"
+[6]> (learn "portuguese")
+"I now know portuguese"
+[7]> (learn "spanish")
+"I now know spanish"
+[8]> (test "test-data")
+I love you.: 
+This line is most likely english 
+The probability of this is 0.8328989 
+
+
+Je t'aime.: 
+This line is most likely french 
+The probability of this is 0.82981193 
+
+
+Te amo.: 
+This line is most likely portuguese 
+The probability of this is 0.6070289 
+
+
+Ich liebe dich.: 
+This line is most likely german 
+The probability of this is 0.99999833 
+
+
+Eu te amo.: 
+This line is most likely portuguese 
+The probability of this is 0.96111965 
+
+
+Ti amo.: 
+This line is most likely italian 
+The probability of this is 0.6207875 
+
+
+: 
+This line is most likely english 
+The probability of this is 0.16666667 
+
+
+There are twenty-four hours in a single day.: 
+This line is most likely english 
+The probability of this is 1.0 
+
+
+Es gibt Zwanzig vier Stunden an einem einzelnen Tag. : 
+This line is most likely german 
+The probability of this is 1.0 
+
+
+Il y a vingt-quatre heures en un seul jour. : 
+This line is most likely french 
+The probability of this is 0.99918026 
+
+
+Ci sono venti quattro ora in un singolo giorno.: 
+This line is most likely italian 
+The probability of this is 0.9999999 
+
+
+Ha vinte quatro horas em um unico dia.: 
+This line is most likely portuguese 
+The probability of this is 0.9999984 
+
+
+Hay veinte cuatro horas en un solo dia.: 
+This line is most likely spanish 
+The probability of this is 0.9999793 
+
+
+NIL
+[9]> 
