@@ -20,7 +20,8 @@ Note: this assumes you have a file named [language name] that has a significant 
 
 3) Create a test file with several lines of languages you would like to test. The program will tell you which language the line is, and let you know the degree of certainty - 
 
-> (test "test-data")
+
+
 I love you.: 
 This line is most likely english 
 The probability of this is 0.8328989 
